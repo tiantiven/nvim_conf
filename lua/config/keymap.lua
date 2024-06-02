@@ -16,3 +16,8 @@ set({'n', 'i', 'v'}, '<C-Q>', '<Esc>:qa<CR>', opts)
 set({'n', 'i', 'v'}, '<C-a>', '<Esc>gg<S-v>G', opts)
 set({'v'}, '<A-c>', '"+y"', opts)
 set({'n', 'i', 'v'}, '<A-v>','<ESC>"+p', opts)
+
+set({'n','i'}, '<A-h>', '<CMD>BufferLineCyclePrev<CR>', opts)
+set({'n','i'}, '<A-l>', '<CMD>BufferLineCycleNext<CR>', opts)
+set({'n','i'}, '<A-H>', '<CMD>BufferLineMovePrev<CR>', opts)
+set({'n','i'}, '<A-L>', '<CMD>BufferLineMoveNext<CR>', opts)
