@@ -1,4 +1,5 @@
 -- GUI Color
+vim.cmd[[colorscheme vim]]
 vim.g.truecolors = true
 vim.g.termguicolors = true
 
