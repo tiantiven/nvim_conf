@@ -1,7 +1,7 @@
 -- GUI Color
 vim.cmd[[colorscheme vim]]
 vim.g.truecolors = true
-vim.g.termguicolors = true
+vim.o.termguicolors = true
 
 vim.g.python3_host_prog="/usr/bin/python"
 -- Line Number

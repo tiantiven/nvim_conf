@@ -19,10 +19,12 @@ require("lazy").setup({
     require("plugins.lualine"),
     require("plugins.bufferline"),
     require("plugins.alpha"),
+    require("plugins.nvim-colorizer"),
     -- Explorer
     require("plugins.nvimtree"),
     --lsp
     require("plugins.mason"),
+    require("plugins.comment"),
     --autocomplete
     require("plugins.autocomplete"),
     -- telescope
