@@ -31,4 +31,7 @@ require("lazy").setup({
     require("plugins.telescope"),
     require("plugins.markdown"),
     require("plugins.autopair"),
+    require("plugins.kiwi"),
+    require("plugins.tablemode"),
+    require("plugins.surround")
   })

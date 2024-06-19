@@ -22,6 +22,7 @@ local M = {
         lspconfig['lua_ls'].setup {}
         lspconfig['pylsp'].setup {}
         lspconfig['gopls'].setup {}
+        lspconfig['bashls'].setup {}
     end,
 }
 
